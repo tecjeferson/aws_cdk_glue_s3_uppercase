@@ -13,7 +13,7 @@ def handler(event, context):
         print(f'Ignoring the file already transformed: {key}')
         return {
             'statusCode': 200,
-            'body': json.dumps(f"Arquivo ignorado: {key}")
+            'body': json.dumps(f"Ignored file: {key}")
         }
 
 
